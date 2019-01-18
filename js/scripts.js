@@ -1,3 +1,4 @@
+$(".suggestion").fadeOut();
 $(function(){
   $(".btn").click(function(event){
   var intInput = $("#interest").val();
@@ -7,20 +8,23 @@ $(function(){
 
 
 
+
   if (mobInput === "yes"){
-    $("#java").fadeToggle();
+
+    $("#java").fadeIn();
   }
 
 
   if (intInput === "design") {
     if (prefInput === "both" || "small" && (mobInput === "no")){
-      $("#css").fadeToggle();
+
+      $("#css").fadeIn();
   }
 }
 
 if (intInput === "function") {
   if (mobInput === "yes"){
-    $("#ruby").fadeToggle();
+    $("#ruby").fadeIn();
 }
 }
 
