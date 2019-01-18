@@ -1,4 +1,5 @@
 .jumbotron {
+  padding-right:300px;
   text-align: center;
   background-color: #fff;
 }
@@ -14,6 +15,10 @@ body {
   background-position: center;
 }
 
+h4 {
+  color: white;
+}
+
 p {
   color: white;
 }
@@ -21,11 +26,16 @@ p {
 form {
   text-align: center;
 }
-.btn {
 
+.form-control {
+  margin-top: 15px;
+  margin-bottom: 55px;
+}
+
+.btn {
   color: pink;
   background-color: white;
-  margin-top: 50px;
+  margin-top: 35px;
 }
 
 img {

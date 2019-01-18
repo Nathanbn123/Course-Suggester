@@ -3,7 +3,7 @@ $(function(){
   var intInput = $("#interest").val();
   var prefInput = $("#prefrence").val();
   var mobInput = $("#mobile").val();
-  
+
   $('.col-lg-4').fadeOut();
 
   if (mobInput === "yes"){
