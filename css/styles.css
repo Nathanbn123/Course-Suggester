@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.jumbotron img {
+  float: left;
+  transform: translateY(-45px);
+}
+
 body {
   width:100%;
   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../img/codebg.jpg);
@@ -42,7 +47,7 @@ img {
 .suggestion {
   display: block;
   width: 75%;
-  margin-left: 38%;
+  
   margin-top: 50px;
 }
 
