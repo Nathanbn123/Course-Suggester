@@ -1,5 +1,6 @@
 .jumbotron {
   text-align: center;
+  background-color: #fff;
 }
 
 .jumbotron img {
@@ -47,13 +48,15 @@ img {
 .suggestion {
   display: block;
   width: 75%;
-  
+  text-align: center;
   margin-top: 50px;
+  margin-left: 12.5%;
 }
 
 #java {
   text-align: center;
   display: none;
+  margin: 0 auto
 
 
 
@@ -61,8 +64,10 @@ img {
 #css {
   text-align: center;
   display: none;
+  margin: 0 auto
 }
 #ruby {
   text-align: center;
   display: none;
+  margin: 0 auto
 }
