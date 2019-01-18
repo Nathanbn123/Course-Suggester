@@ -9,5 +9,10 @@ body {
 }
 
 p {
-  color: white; 
+  color: white;
+}
+
+.btn {
+  color: pink;
+  background-color: white;
 }
