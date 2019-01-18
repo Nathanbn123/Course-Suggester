@@ -7,22 +7,22 @@ $(function(){
 
 
 
-  if(intInput === "function") {
-    if (prefInput === "big" && (mobInput === "yes")){
-      $(".java").fadeToggle();
-    }
+if(intInput === "function") {
+  if (prefInput === "big" && (mobInput === "yes")){
+    $("#java").fadeToggle();
+  }
 }
 
-    if (intInput === "design") {
-  if (prefInput === "both" && (mobInput === "yes")){
-    $(".css").fadeToggle();
-    }
-  }
-
   if (intInput === "design") {
-if (prefInput === "small" && (mobInput === "yes")){
-  $(".ruby").fadeToggle();
+    if (prefInput === "both" || "small" && (mobInput === "no")){
+      $("#css").fadeToggle();
   }
+}
+
+if (intInput === "function") {
+  if (prefInput === "small" && (mobInput === "yes")){
+    $("#ruby").fadeToggle();
+}
 }
 
 event.preventDefault();
