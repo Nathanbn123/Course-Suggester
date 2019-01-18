@@ -7,11 +7,10 @@ $(function(){
 
 
 
-if(intInput === "function") {
-  if (prefInput === "big" && (mobInput === "yes")){
+  if (mobInput === "yes"){
     $("#java").fadeToggle();
   }
-}
+
 
   if (intInput === "design") {
     if (prefInput === "both" || "small" && (mobInput === "no")){
@@ -20,7 +19,7 @@ if(intInput === "function") {
 }
 
 if (intInput === "function") {
-  if (prefInput === "small" && (mobInput === "yes")){
+  if (mobInput === "yes"){
     $("#ruby").fadeToggle();
 }
 }

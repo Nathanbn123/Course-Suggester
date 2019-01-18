@@ -28,6 +28,7 @@ img {
 .col-lg-4 {
   border: 4px solid black;
   background-color: white;
+  display: inline;
 }
 
 
