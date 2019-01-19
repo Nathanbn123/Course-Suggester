@@ -1,6 +1,6 @@
 # _Course Suggester_
 
-#### _A web survery that will suggest an Epicodus course for you!, 1/11/19_
+#### _A web survery that will suggest an Epicodus course for you!, 1/18/19_
 
 #### By _**Nathan Nielson**_
 
