@@ -16,14 +16,14 @@ _This application provides the user with an informed suggestion for an Epicodus 
 
 ## Known Bugs
 
-_There are no known bugs with the current version of the application_
+_When fading in a dev that is already on screen, it will strangely fade out and back in._
 
 ## Support and contact details
 _If you encounter any bugs or issues not documented during your experience, please feel free to contact me at my email: nathans-email@email.com_
 
 ## Technologies used
 
-_This application was created using HTML, CSS and Bootstrap_
+_This application was created using HTML, CSS, Bootstrap, Javascript and Jquery_
 
 ### License
 
