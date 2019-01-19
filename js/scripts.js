@@ -6,22 +6,22 @@ $(function(){
 
   $('.col-lg-4').fadeOut();
 
-  if (mobInput === "yes"){
+  if (intInput === "function"){
+    if (prefInput === "big" && (mobInput === "yes"))
     $("#java").fadeIn();
   }
 
 
   if (intInput === "design") {
-    if (prefInput === "both" || "small" && (mobInput === "no")){
+    if (mobInput === "no"){
       $("#css").fadeIn();
   }
 }
 
   if (intInput === "function" || "both2") {
-    if (mobInput === "yes"){
       $("#ruby").fadeIn();
   }
-}
+
 
 event.preventDefault();
 

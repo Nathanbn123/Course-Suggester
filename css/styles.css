@@ -4,17 +4,21 @@
   background-color: #fff;
   color: #666;
   border-bottom: 2px solid #666;
+  font-size: 45px;
+  margin-bottom: 65px;
 }
 
 .jumbotron img {
   float: left;
-  transform: translateY(-45px);
+  transform: translateY(-35px);
+
 }
 
 body {
   width:100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(../img/codebg.jpg);
   background-position: center;
+  height: auto;
 }
 
 h4 {
@@ -24,6 +28,7 @@ h4 {
 
 p {
   color: #666;
+  font-size: 20px;
 }
 
 form {
@@ -39,13 +44,15 @@ form {
   color: #666;
   background-color: white;
   margin-top: 35px;
+
 }
 
 img {
   width: 250px;
 }
 .col-lg-4 {
-  border: 4px solid black;
+  border: 4px solid white;
+  border-radius: 5px;
   background-color: white;
   display: inline;
 }
